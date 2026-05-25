@@ -310,8 +310,8 @@
       );
 
       const App = () => {
-        // --- CÀI ĐẶT THỜI GIAN KHỞI ĐẦU (THÁNG 6 NĂM 2026) ---
-        const [currentDate, setCurrentDate] = useState(new Date(2026, 5, 1));
+        // --- TỰ ĐỘNG LẤY THỜI GIAN THỰC CỦA THIẾT BỊ ---
+        const [currentDate, setCurrentDate] = useState(new Date());
 
         // Tải dữ liệu lưu trữ từ trình duyệt của người dùng
         const [transactions, setTransactions] = useState(() => {
